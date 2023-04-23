@@ -1,0 +1,9 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+
+deny from all
+
+</Files>
+
+ErrorDocument 404 /index.html
+
+order deny,allow
